@@ -1,6 +1,60 @@
 [
     {
-        "name": "Site de garagem Esportiva",
-        "description": "O site foi feito para o projeto final da disciplina de laboratorio de programação 2. Para a confecção"
+        "name": "SJCAR - WebSite",
+        "description": "O site foi feito para o projeto final da disciplina de laboratório de programação 2. Foi usado o framework Bootstrap e a API de veículos NHTSA",
+        "isWebSite": "true",
+        "github": "",
+        "domain": "",
+        "image": "./img/sjcar.svg"
+    },
+
+    {
+        "name": "Shopping Starcourt - WebSite",
+        "description": "Projeto feito com HTML e CSS para um shopping fictício.",
+        "isWebSite": "true",
+        "github": "https://github.com/MateusGomesc/Starcourt",
+        "domain": "https://mateusgomesc.github.io/Starcourt",
+        "image": "./img/starcourt.svg"
+    },
+
+    {
+        "name": "SJAGROTECH - WebSite",
+        "description": "Homepage feito para uma empresa agrícola fictícia. Foi usado o framework UIkit para o desenvolvimento",
+        "isWebSite": "true",
+        "github": "https://github.com/MateusGomesc/siteAgricola",
+        "domain": "https://mateusgomesc.github.io/siteAgricola",
+        "image": "./img/agro.svg"
+    },
+
+    {
+        "name": "Jokenpô - Python",
+        "description": "Tradicional jogo de jokenpô feito na linguagem Python",
+        "isWebSite": "false",
+        "github": "",
+        "image": ""
+    },
+
+    {
+        "name": "Sistema de Cadastro - Python",
+        "description": "Sistema de cadastro de pessoas usando arquivos externos com Python",
+        "isWebSite": "false",
+        "github": "",
+        "image": ""
+    },
+
+    {
+        "name": "Sistema Escolar - Linguagem C",
+        "description": "Projeto feito usando conceitos aprofundados da linguagem C como manipulação de arquivo e alocação dinâmica de memória.",
+        "isWebSite": "false",
+        "github": "",
+        "image": ""
+    },
+
+    {
+        "name": "Gerador de senhas - Linguagem C",
+        "description": "Gerados de senhas simples feito em linguagem C, o mesmo entrega senhas de tamanho personalizado.",
+        "isWebSite": "false",
+        "github": "",
+        "image": ""
     }
 ]
