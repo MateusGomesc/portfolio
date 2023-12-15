@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Stickler Pro';
+    src: url('Stickler-Pro.eot');
+    src: local('Stickler Pro'), local('Stickler-Pro'),
+        url('Stickler-Pro.eot?#iefix') format('embedded-opentype'),
+        url('Stickler-Pro.woff2') format('woff2'),
+        url('Stickler-Pro.woff') format('woff'),
+        url('Stickler-Pro.ttf') format('truetype'),
+        url('Stickler-Pro.svg#Stickler-Pro') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
