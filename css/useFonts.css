@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Devant';
+    src: url(../font/Devant/Devant-Horgen/Devant-Horgen.otf) format("OpenType");
+}
+
+@font-face {
+    font-family: 'Stickler';
+    src: url(../font/Stickler/Stickler-Pro.ttf) format("TrueType");
+}
+
+@font-face {
+    font-family: 'Stage';
+    src: url(../font/Stage-Grotesk/OTF/StageGrotesk-Regular.otf) format("OpenType"), url(../font/Stage-Grotesk/OTF/StageGrotesk-Light.otf) format("OpenType");
+}
