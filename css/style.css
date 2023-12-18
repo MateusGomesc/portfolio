@@ -30,10 +30,35 @@ header{
     margin-bottom: 5px;
 }
 
-.menuImage{
-    width: 43px;
+/*Menu Mobile*/
+
+.menuMobileBtn{
+    border: none;
+    background-color: var(--branco);
     height: 43px;
-    z-index: 1;
+    width: 43px;
+    object-fit: cover;
+    color: var(--azul);
+}
+
+.menuMobile{
+    background-color: var(--azul);
+    display: none;
+    width: 50%;
+    padding: 7px 20px 7px 20px;
+    z-index: 2;
+}
+
+.menuList{
+    padding-top: 20%;
+    list-style: none;
+    font-family: 'Stickler', sans-serif;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
 }
 
 /*Apresentação*/
