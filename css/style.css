@@ -32,10 +32,6 @@ header{
 
 /*Menu Mobile*/
 
-body{
-    transition: filter 0.1s ease;
-}
-
 .menuMobileBtn{
     border: none;
     background-color: var(--branco);
@@ -144,6 +140,39 @@ a{
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+/*Code Area*/
+
+.areaCode{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+.code{
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px var(--sombra),
+            -3px -3px 4px var(--sombra);
+    background-color: var(--branco);
+    height: 210px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+pre{
+    font-family: 'Fira Code';
+    font-size: 12px;
+    line-height: 2;
+}
+
+.high{
+    font-family: 'Fira Code';
+    color: var(--verde);
+    font-weight: bold;
 }
 
 /*change menu*/
