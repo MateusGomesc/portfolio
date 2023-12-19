@@ -89,7 +89,7 @@ a{
     height: 100%;
     gap: 48px;
     list-style: none;
-    font-family: 'stickler', sans-serif;
+    font-family: 'Stickler', sans-serif;
     font-size: 28px;
 }
 
@@ -110,6 +110,40 @@ a{
 
 .elemPresentation{
     width: 42%;
+}
+
+.pPresentation{
+    font-family: 'Stage-light', sans-serif;
+    font-size: 16px;
+}
+
+.salutation{
+    margin-bottom: -16px;
+}
+
+.title{
+    font-family: 'Stickler', sans-serif;
+    font-size: 40px;
+}
+
+.areaText{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.iconPresentation{
+    width: 32px;
+    height: 32px;
+}
+
+.areaIcons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 /*change menu*/

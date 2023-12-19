@@ -10,5 +10,10 @@
 
 @font-face {
     font-family: 'Stage';
-    src: url(../font/Stage-Grotesk/OTF/StageGrotesk-Regular.otf) format("OpenType"), url(../font/Stage-Grotesk/OTF/StageGrotesk-Light.otf) format("OpenType");
+    src: url(../font/Stage-Grotesk/OTF/StageGrotesk-Regular.otf) format("OpenType");
+}
+
+@font-face {
+    font-family: 'Stage-light';
+    src: url(../font/Stage-Grotesk/OTF/StageGrotesk-Light.otf) format("OpenType");
 }
