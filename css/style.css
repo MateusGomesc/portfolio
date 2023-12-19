@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-/*Cabeçalho*/
+/*Header*/
 
 header{
     height: 52px;
@@ -80,7 +80,24 @@ a{
     color: var(--branco);
 }
 
-/*Apresentação*/
+/*Menu Desktop*/
+
+.menuDesktop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 48px;
+    list-style: none;
+    font-family: 'stickler', sans-serif;
+    font-size: 28px;
+}
+
+.menuDesktop li a{
+    color: var(--azul);
+}
+
+/*Presentation*/
 
 .areaElem{
     width: 100%;
@@ -93,4 +110,34 @@ a{
 
 .elemPresentation{
     width: 42%;
+}
+
+/*change menu*/
+
+@media (min-width: 800px){
+    .areaMenuDesktop{
+        display: block;
+    }
+
+    .areaMenuMobile{
+        display: none;
+    }
+
+    .logotipo{
+        margin-left: 110px;
+    }
+
+    .menuDesktop{
+        margin-right: 110px;
+    }
+}
+
+@media (max-width: 800px){
+    .areaMenuDesktop{
+        display: none;
+    }
+
+    .areaMenuMobile{
+        display: block;
+    }
 }
