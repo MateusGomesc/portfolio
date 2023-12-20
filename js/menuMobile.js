@@ -1,10 +1,10 @@
-//recebe elementos
+//receive elements
 const btn = document.getElementById('btn')
 const menu = document.getElementById('menu')
 const header = document.getElementsByTagName('header')[0]
 const btnClose = document.getElementsByClassName('menuMobileBtnClose')[0]
 
-//interação com menu
+//interaction menu
 btn.addEventListener('click', () => {
     menu.style.display = 'block'
     btn.style.display = 'none'

@@ -41,27 +41,29 @@
         </div>
     </header>
 
-    <!--Presentation-->
+    <main>
 
-    <div class="areaElem">
-        <img src="./img/fundoHome.svg" alt="Elemento apresentação" class="elemPresentation">
-    </div>
+        <!--Presentation-->
 
-    <div class="areaText">
-        <p class="pPresentation salutation">Olá, eu sou</p>
-        <h1 class="title">Mateus Gomes</h1>
-        <p class="pPresentation">DESENVOLVEDOR FRONT-END</p>
-        <div class="areaIcons">
-            <img src="./img/icons/githubAzul.png" alt="Github icon" class="iconPresentation" href="">
-            <img src="./img/icons/linkedin.png" alt="Linkedin icon" class="iconPresentation" href="">
+        <div class="areaElem">
+            <img src="./img/fundoHome.svg" alt="Elemento apresentação" class="elemPresentation">
         </div>
-    </div>
 
-    <!--Code Area-->
+        <div class="areaText">
+            <p class="pPresentation salutation">Olá, eu sou</p>
+            <h1 class="title">Mateus Gomes</h1>
+            <p class="pPresentation">DESENVOLVEDOR FRONT-END</p>
+            <div class="areaIcons">
+                <img src="./img/icons/githubAzul.png" alt="Github icon" class="iconPresentation" href="">
+                <img src="./img/icons/linkedin.png" alt="Linkedin icon" class="iconPresentation" href="">
+            </div>
+        </div>
 
-    <div class="areaCode">
-        <div class="code">
-            <pre>
+        <!--Code Area-->
+
+        <div class="areaCode">
+            <div class="code">
+                <pre>
 
 1 let <span class="high">pessoa</span> = {
 2   nome: “<span class="high">Mateus Gomes</span>”,
@@ -70,23 +72,30 @@
 5 }
 6 
 7 pessoa.skills.push(“<span class="high">Aprender++</span>”)
-            </pre>
+                </pre>
+            </div>
         </div>
-    </div>
 
-    <!--About-->
+        <!--About-->
 
-    <h2 class="sectionTitle" id="about">Sobre mim</h2>
-    <div class="areaAbout">
-        <img src="./img/fundoSobre.svg" alt="Imagem de Fundo de Sobre" class="imgAbout">
-        <div class="SubAbout">
-            <div class="backgroundPhoto"><img src="./img/foto.jpeg" alt="Foto do autor" class="photo"></div>
-            <p>Olá,  eu sou o Mateus, um estudante que está finalizando o Curso Técnico em Informática Integrado ao Ensino Médio no Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro (IFTM) - Campus Patrocínio. Ao longo do meu 2° ano de curso aprendi desenvolvimento web, englobando HTML, CSS, JAVASCRIPT, UX, prototipação de sites com o FIGMA e o uso dos frameworks BOOTSTRAP e UIKIT. Também possuo experiência com o uso da ferramenta DOCKER onde trabalhei com servidor HTTP apache. Outras habilidades abrangem a manutenção e a montagem de computadores e a linguagem de programação Python. Ademais, sou muito interessado na área de programação e tenho vontade de aprender cada vez mais.</p>
+        <h2 class="sectionTitle" id="about">Sobre mim</h2>
+        <div class="areaAbout">
+            <img src="./img/fundoSobre.svg" alt="Imagem de Fundo de Sobre" class="imgAbout">
+            <div class="SubAbout">
+                <div class="backgroundPhoto"><img src="./img/foto.jpeg" alt="Foto do autor" class="photo"></div>
+                <p>Olá,  eu sou o Mateus, um estudante que está finalizando o Curso Técnico em Informática Integrado ao Ensino Médio no Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro (IFTM) - Campus Patrocínio. Ao longo do meu 2° ano de curso aprendi desenvolvimento web, englobando HTML, CSS, JAVASCRIPT, UX, prototipação de sites com o FIGMA e o uso dos frameworks BOOTSTRAP e UIKIT. Também possuo experiência com o uso da ferramenta DOCKER onde trabalhei com servidor HTTP apache. Outras habilidades abrangem a manutenção e a montagem de computadores e a linguagem de programação Python. Ademais, sou muito interessado na área de programação e tenho vontade de aprender cada vez mais.</p>
+            </div>
         </div>
-    </div>
+
+        <!--Skills Cards-->
+        <h2 class="sectionTitle" id="about">Minhas Habilidades</h2>
+        <div class="areaSkills"></div>
+        <div class="areaPagination"><button class="btnPagination"></button></div>
+    </main>
 
     <!--Javascript-->
     <script src="./js/menuMobile.js"></script>
     <script src="./js/requestJSON.js"></script>
+    <script src="./js/skillsCards.js"></script>
 </body>
 </html>
