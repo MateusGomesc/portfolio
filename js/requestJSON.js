@@ -1,8 +1,5 @@
-fetch('./js/data.json').then(response => {
-    if(response.ok){
-        return response.json()
-    }
-})
-.then(data => {
+async function request(){
+    const response = await fetch('./js/data.json')
+    const data = await response.json()
     return data
-})
+}
