@@ -2,8 +2,8 @@
 const areaCards = document.getElementsByClassName('areaSkills')[0]
 const btnPagination = document.getElementsByClassName('btnPagination')
 
-//create cards
 request().then(data => {
+    //create cards
     for(let i=0; i<data.skills.length; i++){
         //create elements
         const card = document.createElement('div')
@@ -24,6 +24,16 @@ request().then(data => {
         card.appendChild(image)
         card.appendChild(name)
     }
-})
 
+    //Pagination Control
+    const scrollPagination = (left) => {
+        const card = areaCards?.firstElementChild
+        const cardSize = (card?.clientWidth ?? 0) + 48
+        const scrollPosition = areaCards?.scrollLeft ?? 0
+        left ? areaCards.scrollTo({left: scrollPosition - cardSize}) : areaCards.scrollTo({left: scrollPosition + cardSize})
+    }
+    
+    btnPagination[0].addEventListener('click', () => scrollPagination(true))
+    btnPagination[1].addEventListener('click', () => scrollPagination(false))
+})
 
