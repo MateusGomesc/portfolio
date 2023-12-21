@@ -1,9 +1,9 @@
 //receive elements
 const areaCards = document.getElementsByClassName('areaSkills')[0]
-const areaPagination = document.getElementsByClassName('areaPagination')[0]
+const btnPagination = document.getElementsByClassName('btnPagination')
 
-const res = request().then(data => {
-    //create cards
+//create cards
+request().then(data => {
     for(let i=0; i<data.skills.length; i++){
         //create elements
         const card = document.createElement('div')
@@ -24,17 +24,6 @@ const res = request().then(data => {
         card.appendChild(image)
         card.appendChild(name)
     }
-
-    //create pagination
-    for(let i=0; i<data.skills.length; i++){
-        //create elements
-        const btn = document.createElement('button')
-
-        //puts classes
-        btn.classList.add('btnPagination')
-
-        //configure hierarchy
-        areaPagination.appendChild(btn)
-    }
 })
+
 

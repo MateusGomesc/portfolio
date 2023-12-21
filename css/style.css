@@ -238,8 +238,7 @@ pre{
 .areaSkills{
     padding: 0 20px 10px 20px;
     display: flex;
-    overflow: scroll;
-    scroll-behavior: ;
+    overflow: hidden;
     gap: 48px;
 }
 
@@ -276,21 +275,26 @@ pre{
 /*Pagination skills*/
 
 .areaPagination{
-    width: 100%;
-    text-align: center;
     display: flex;
-    justify-content: center;
-    gap: 6px;
-    margin-top: 10px;
+    gap: 10px;
+    justify-content: end;
+    margin-right: 20px;
+    padding-top: 10px;
 }
 
 .btnPagination{
-    width: 10px;
-    height: 10px;
-    border: none;
-    background-color: var(--verde);
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
-    opacity: 0.5;
+    border: 1px solid var(--verde);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btnPagination:hover{
+    background-color: rgba(184, 184, 184, 0.5);
 }
 
 /*change menu*/
