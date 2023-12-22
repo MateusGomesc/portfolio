@@ -290,10 +290,90 @@ pre{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-color: var(--branco);
 }
 
 .btnPagination:hover{
     background-color: rgba(184, 184, 184, 0.5);
+}
+
+/*Projects cards*/
+
+.areaProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.cardProjects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgProjects{
+    box-shadow: 3px 3px 4px var(--sombra),
+            -3px -3px 4px var(--sombra);
+    border-radius: 8px;
+    width: 320px;
+    height: 150px;
+    z-index: 1;
+}
+
+.titleProjects{
+    font-family: 'Devant', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--azul);
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.textProjects{
+    font-family: 'Stage-light', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.bodyCardProject{
+    width: 320px;
+    padding: 30px 10px 20px 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px var(--sombra),
+            -3px -3px 4px var(--sombra);
+    margin-top: -15px;
+}
+
+.imgGitHub{
+    width: 35px;
+    height: 35px;
+}
+
+.btnSite{
+    border: none;
+    height: 32px;
+    width: 110px;
+    background-color: var(--verde);
+    color: var(--branco);
+    font-family: 'Stickler', sans-serif;
+    font-size: 24px;
+    border-radius: 8px;
+    vertical-align: middle;
+}
+
+.areaBtnProjects{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    
+}
+
+.areaBtnProjects a{
+    text-decoration: none;
 }
 
 /*change menu*/

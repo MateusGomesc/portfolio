@@ -12,6 +12,7 @@ request().then(data => {
 
         //modifies content
         image.setAttribute('src', data.skills[i].image)
+        image.setAttribute('alt', 'Logo Linguagem')
         name.innerHTML = data.skills[i].name
 
         //puts classes
