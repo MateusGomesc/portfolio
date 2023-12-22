@@ -376,7 +376,30 @@ pre{
     text-decoration: none;
 }
 
+/*Footer*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    padding: 7px 20px 7px 20px;
+    box-shadow: 3px 0px 10px var(--sombra);
+}
+
+footer img{
+    height: 38px;
+    width: 38px;
+}
+
+.textFooter{
+    font-family: 'Stage-light', sans-serif;
+    font-size: 20px;
+    color: var(--azul);
+}
+
 /*change menu*/
+/*change padding footer*/
 
 @media (min-width: 800px){
     .areaMenuDesktop{
@@ -393,6 +416,10 @@ pre{
 
     .menuDesktop{
         margin-right: 110px;
+    }
+
+    footer{
+        padding: 7px 130px 7px 130px;
     }
 }
 
