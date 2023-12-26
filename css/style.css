@@ -377,6 +377,44 @@ pre{
     text-decoration: none;
 }
 
+/*Contact*/
+
+.backgroundContact{
+    width: 100%;
+    z-index: -1;
+    margin-top: -290px;
+    position: absolute;
+}
+
+.cardContact{
+    margin: 0 20px 0 20px;
+    box-shadow: 3px 3px 4px var(--sombra),
+            -3px -3px 4px var(--sombra);
+    background-color: var(--branco);
+    padding: 14px 7px 14px 7px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.nameEmailContact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.inputContact, .textAreaContact{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Stage-light';
+    font-size: 16px;
+}
+
+textarea{
+    resize: none;
+}
+
 /*Footer*/
 
 footer{
