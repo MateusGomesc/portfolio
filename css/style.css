@@ -395,6 +395,7 @@ pre{
     display: flex;
     flex-direction: column;
     border-radius: 8px;
+    margin-bottom: 70px;
 }
 
 .nameEmailContact{
@@ -409,10 +410,80 @@ pre{
     flex-direction: column;
     font-family: 'Stage-light';
     font-size: 16px;
+    gap: 8px;
+}
+
+.inputContact input, .textAreaContact textarea{
+    font-family: 'Stage-light';
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(234, 234, 234, 1);
+    border: none;
+}
+
+.textAreaContact textarea{
+    height: 140px;
+}
+
+.inputContact{
+    width: 100%;
+}
+
+.inputContact input:focus, .textAreaContact textarea:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.inputContact label, .textAreaContact label{
+    margin-left: 5px;
 }
 
 textarea{
     resize: none;
+}
+
+.imgContact{
+    width: 30px;
+    height: 30px;
+}
+
+.footercard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.imgSocial{
+    display: flex;
+    gap: 14px;
+    margin-left: 5px;
+}
+
+.imgSubmit{
+    width: 32px;
+    height: 32px;
+}
+
+.footercard button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--verde);
+    border: none;
+    margin-right: 5px;
+    height: 32px;
+    width: 118px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footercard button p{
+    font-family: 'Stickler', sans-serif;
+    font-size: 24px;
+    color: var(--branco);
 }
 
 /*Footer*/
