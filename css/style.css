@@ -314,6 +314,7 @@ pre{
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
+    z-index: 0;
 }
 
 .imgProjects{
@@ -343,11 +344,14 @@ pre{
 
 .bodyCardProject{
     width: 310px;
-    padding: 30px 10px 20px 10px;
+    padding: 30px 30px 30px 30px;
     border-radius: 8px;
     box-shadow: 3px 3px 4px var(--sombra),
             -3px -3px 4px var(--sombra);
     margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 .imgGitHub{
@@ -611,5 +615,23 @@ footer img{
 @media (min-width: 1100px){
     .SubAbout{
         padding: 100px 40px 100px 40px;
+    }
+}
+
+/*change Projects*/
+
+@media (min-width: 900px){
+    .bodyCardProject{
+        width: 480px;
+        height: 270px;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .imgProjects{
+        object-fit: cover;
+        width: 520px;
+        height: 270px;
+        margin-left: -20px;
     }
 }
