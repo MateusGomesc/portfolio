@@ -95,11 +95,18 @@ a{
 
 /*Presentation*/
 
+.controlPresentation{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .areaElem{
     width: 100%;
     display: flex;
     justify-content: end;
-    margin-top: -60px;
+    margin-top: -70px;
     z-index: -1;
     position: absolute;
 }
@@ -148,6 +155,7 @@ a{
    width: 100%;
    display: flex;
    justify-content: center;
+   align-items: center;
    margin-top: 100px;
 }
 
@@ -559,5 +567,43 @@ footer img{
 @media (min-width: 1300px){
     .cardContact{
         margin: 0 280px 0 280px;
+    }
+}
+
+/*Change presentation*/
+
+@media (min-width: 900px){
+    pre{
+        font-size: 14px;
+    }
+
+    .code{
+        width: 430px;
+        height: 260px;
+    }
+
+    .controlPresentation{
+        padding: 0 40px 0 40px;
+    }
+    
+    .areaText{
+        width: 48%;
+        text-align: start;
+    }
+
+    .areaCode{
+        width: 48%;
+    }
+
+    .pPresentation{
+        font-size: 24px;
+    }
+
+    .title{
+        font-size: 80px;
+    }
+
+    .areaIcons{
+        justify-content: start;
     }
 }
