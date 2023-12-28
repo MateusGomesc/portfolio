@@ -381,6 +381,7 @@ pre{
 
 .backgroundContact{
     width: 100%;
+    display: flex;
     z-index: -1;
     margin-top: -290px;
     position: absolute;
@@ -395,7 +396,7 @@ pre{
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .nameEmailContact{
@@ -486,6 +487,10 @@ textarea{
     color: var(--branco);
 }
 
+main{
+    margin-bottom: 100px;
+}
+
 /*Footer*/
 
 footer{
@@ -551,7 +556,7 @@ footer img{
     }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1300px){
     .cardContact{
         margin: 0 280px 0 280px;
     }
