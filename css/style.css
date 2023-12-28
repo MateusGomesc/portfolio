@@ -542,3 +542,17 @@ footer img{
         display: block;
     }
 }
+
+/*Change form*/
+
+@media (min-width: 700px){
+    .inputContact{
+        width: 48%;
+    }
+}
+
+@media (min-width: 1440px){
+    .cardContact{
+        margin: 0 280px 0 280px;
+    }
+}
