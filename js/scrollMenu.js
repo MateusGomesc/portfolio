@@ -6,7 +6,6 @@ function createEventScrollMenu(item){
     item.addEventListener('click', (e) => {
         e.preventDefault()
         const id = item.getAttribute('href')
-        console.log(document.getElementById(id.replace('#', '')))
         document.getElementById(id.replace('#', '')).scrollIntoView({ behavior: 'smooth' })
     })
 }
