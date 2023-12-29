@@ -5,7 +5,7 @@
             "description": "O site foi feito para o projeto final da disciplina de laboratório de programação 2. Foi usado o framework Bootstrap e a API de veículos NHTSA",
             "isWebSite": "true",
             "github": "https://github.com/MateusGomesc/sjcar",
-            "domain": "https://mateusgomesc.github.io/sjcar/contatos.html",
+            "domain": "https://mateusgomesc.github.io/sjcar",
             "image": "./img/sjcar.svg"
         },
 
