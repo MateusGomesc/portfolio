@@ -31,7 +31,7 @@
             "name": "Jokenpô - Python",
             "description": "Tradicional jogo de jokenpô feito na linguagem Python",
             "isWebSite": "false",
-            "github": "",
+            "github": "https://github.com/MateusGomesc/jokenpo",
             "image": "./img/jokenpo.svg"
         },
 
@@ -39,7 +39,7 @@
             "name": "Sistema de Cadastro - Python",
             "description": "Sistema de cadastro de pessoas usando arquivos externos com Python",
             "isWebSite": "false",
-            "github": "",
+            "github": "https://github.com/MateusGomesc/sistema-cadastro",
             "image": "./img/cadastro.svg"
         },
 
@@ -47,15 +47,15 @@
             "name": "Sistema Escolar - Linguagem C",
             "description": "Projeto feito usando conceitos aprofundados da linguagem C como manipulação de arquivo e alocação dinâmica de memória.",
             "isWebSite": "false",
-            "github": "",
+            "github": "https://github.com/MateusGomesc/sistema-escolar",
             "image": "./img/escola.svg"
         },
 
         {
             "name": "Gerador de senhas - Linguagem C",
-            "description": "Gerados de senhas simples feito em linguagem C.",
+            "description": "Gerador de senhas simples feito em linguagem C.",
             "isWebSite": "false",
-            "github": "",
+            "github": "https://github.com/MateusGomesc/gerador-senhas",
             "image": "./img/senha.svg"
         }
     ],
