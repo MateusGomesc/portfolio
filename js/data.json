@@ -53,7 +53,7 @@
 
         {
             "name": "Gerador de senhas - Linguagem C",
-            "description": "Gerados de senhas simples feito em linguagem C, o mesmo entrega senhas de tamanho personalizado.",
+            "description": "Gerados de senhas simples feito em linguagem C.",
             "isWebSite": "false",
             "github": "",
             "image": "./img/senha.svg"
