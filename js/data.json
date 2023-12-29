@@ -32,7 +32,7 @@
             "description": "Tradicional jogo de jokenpô feito na linguagem Python",
             "isWebSite": "false",
             "github": "",
-            "image": ""
+            "image": "./img/jokenpo.svg"
         },
 
         {
@@ -40,7 +40,7 @@
             "description": "Sistema de cadastro de pessoas usando arquivos externos com Python",
             "isWebSite": "false",
             "github": "",
-            "image": ""
+            "image": "./img/cadastro.svg"
         },
 
         {
@@ -48,7 +48,7 @@
             "description": "Projeto feito usando conceitos aprofundados da linguagem C como manipulação de arquivo e alocação dinâmica de memória.",
             "isWebSite": "false",
             "github": "",
-            "image": ""
+            "image": "./img/escola.svg"
         },
 
         {
@@ -56,7 +56,7 @@
             "description": "Gerados de senhas simples feito em linguagem C, o mesmo entrega senhas de tamanho personalizado.",
             "isWebSite": "false",
             "github": "",
-            "image": ""
+            "image": "./img/senha.svg"
         }
     ],
     
