@@ -3,7 +3,7 @@
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
-  --color-foregroundground: hsl(var(--foreground));
+  --color-foreground: hsl(var(--foreground));
 
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
@@ -89,6 +89,19 @@
 
     --border: 217 33% 20%;
   }
+
+  * {
+    @apply border-border;
+  }
+
+  html{
+    @apply scroll-smooth;
+  }
+
+  body{
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
 }
 
 @utility container{
@@ -126,7 +139,7 @@
 }
 
 @utility gradient-border{
-  @apply realtive rounded-md;
+  @apply relative rounded-md;
   background: linear-gradient(to right, hsl(var(--card), hsl(var(--card))));
   background-clip: padding-box;
   border: 1px solid transparent;
@@ -144,4 +157,11 @@
 @utility meteor{
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, .3);
+}
+
+#root{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 }
