@@ -1,3 +1,4 @@
+import { HeroSection } from "../components/HeroSection";
 import { NavBar } from "../components/NavBar";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
@@ -8,6 +9,9 @@ export function Home(){
             <ThemeToggle/>
             <StarBackground/>
             <NavBar/>
+            <main>
+                <HeroSection/>
+            </main>
         </div>
     )
 }
