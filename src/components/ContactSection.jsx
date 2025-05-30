@@ -36,7 +36,7 @@ export function ContactSection(){
                                     <MailIcon className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium">Email</h4>
+                                    <h4 className="font-medium text-start">Email</h4>
                                     <a href="mailto:mateuscostagomes000@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">mateuscostagomes000@gmail.com</a>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ export function ContactSection(){
                                     <PhoneIcon className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium">Phone</h4>
+                                    <h4 className="font-medium text-start">Phone</h4>
                                     <a href="tel:+5534999864372" className="text-muted-foreground hover:text-primary transition-colors">+55 (34) 99986-4372</a>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ export function ContactSection(){
                                     <MapPin className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium">Location</h4>
+                                    <h4 className="font-medium text-start">Location</h4>
                                     <a className="text-muted-foreground hover:text-primary transition-colors">Uberlândia, MG, Brasil</a>
                                 </div>
                             </div>
@@ -62,8 +62,8 @@ export function ContactSection(){
                         <div className="pt-8">
                             <h4 className="font-medium mb-4">Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="#" target="_blank"><Linkedin/></a>
-                                <a href="#" target="_blank"><Instagram/></a>
+                                <a href="#" target="_blank" className="hover:text-primary transition-colors duration-200"><Linkedin/></a>
+                                <a href="#" target="_blank" className="hover:text-primary transition-colors duration-200"><Instagram/></a>
                             </div>
                         </div>
                     </div>
