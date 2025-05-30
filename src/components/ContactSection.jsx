@@ -9,9 +9,9 @@ export function ContactSection(){
     const { isSubmitting, setIsSubmitting } = useState(false)
 
     const handleSubmit = (e) => {
+        e.preventDefault()
         setIsSubmitting(true)
 
-        e.preventDefault()
         setTimeout(() => {
             toast({
                 title: "Message Sent!",
@@ -104,7 +104,7 @@ export function ContactSection(){
                             </div>
                             <button 
                                 type="submit" 
-                                className={cn("cosmic-button w-full flex items-center justify-center gap-2")}
+                                className={cn("cosmic-button w-full flex items-center justify-center gap-2 cursor-pointer")}
                                 disabled={isSubmitting}
                             >
                                 {isSubmitting ? "Sending..." : "Send Message"} <Send size={16} />
