@@ -3,11 +3,6 @@ import { cn } from "../lib/utils"
 
 const skills = [
     {
-        name: "HTML/CSS",
-        level: 95,
-        category: "frontend"
-    },
-    {
         name: "PHP",
         level: 92,
         category: "backend"
@@ -15,6 +10,81 @@ const skills = [
     {
         name: "VS code",
         level: 98,
+        category: "tools"
+    },
+    {
+        name: "JavaScript",
+        level: 90, 
+        category: "frontend" 
+    },
+    {
+        name: "React.js",
+        level: 90, 
+        category: "frontend"
+    },
+    {
+        name: "HTML5",
+        level: 95,
+        category: "frontend"
+    },
+    {
+        name: "CSS3",
+        level: 90,
+        category: "frontend"
+    },
+    {
+        name: "TailwindCSS",
+        level: 85,
+        category: "frontend"
+    },
+    {
+        name: "Node.js",
+        level: 80,
+        category: "backend"
+    },
+    {
+        name: "MySQL",
+        level: 90,
+        category: "backend"
+    },
+    {
+        name: "Git & GitHub",
+        level: 85, 
+        category: "tools" // "tools" em português
+    },
+    {
+        name: "API RESTful",
+        level: 80,
+        category: "backend"
+    },
+    {
+        name: "Python",
+        level: 92,
+        category: "backend"
+    },
+    {
+        name: "Linguagem C",
+        level: 98,
+        category: "backend"
+    },
+    {
+        name: "Code Blocks",
+        level: 90,
+        category: "tools"
+    },
+    {
+        name: "MySQL Workbench",
+        level: 92,
+        category: "tools"
+    },
+    {
+        name: "Xampp",
+        level: 98,
+        category: "tools"
+    },
+    {
+        name: "PHP My Admin",
+        level: 97,
         category: "tools"
     },
 ]
@@ -29,7 +99,7 @@ export function SkillsSection(){
         <section id="skills" className="py-24 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                    My <span className="text-primary">Skills</span>
+                    Minhas <span className="text-primary">Skills</span>
                 </h2>
                 <div className="flex flex-wrap justify-center gap-4 mb-12">
                     {categories.map((category, key) => (

@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLinkIcon, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "Saas Landing Page",
-        description: "A beatiful landing page using react and tailwind.",
-        image: "https://placehold.co/600x400",
-        tags: ['React', 'Tailwind'],
-        demoUrl: '#',
-        githubUrl: '#'
+        title: "Chronos Pomodoro",
+        description: "Aplicação Web para gestão de tempo e foco com o método pomodoro.",
+        image: "src/assets/chronos-pomodoro.jpeg",
+        tags: ['React', 'Typescript', 'Tailwind'],
+        demoUrl: 'https://chronos-pomodoro-mu.vercel.app/', 
+        githubUrl: 'https://github.com/MateusGomesc/Chronos-Pomodoro' 
     },
     {
-        id: 1,
-        title: "Saas Landing Page",
-        description: "A beatiful landing page using react and tailwind.",
-        image: "https://placehold.co/600x400",
-        tags: ['React', 'Tailwind'],
-        demoUrl: '#',
-        githubUrl: '#'
+        id: 2,
+        title: "Costs",
+        description: "Gerenciador de projetos com diversas funcionalidades incroporadas.",
+        image: "src/assets/costs.png", 
+        tags: ['React'], 
+        demoUrl: '#', 
+        githubUrl: 'https://github.com/MateusGomesc/Costs' 
     },
     {
-        id: 1,
-        title: "Saas Landing Page",
-        description: "A beatiful landing page using react and tailwind.",
-        image: "https://placehold.co/600x400",
-        tags: ['React', 'Tailwind'],
-        demoUrl: '#',
-        githubUrl: '#'
+        id: 3,
+        title: "Aura Club",
+        description: "Ecommerce para boate fictícia.",
+        image: "src/assets/aura-club.png", 
+        tags: ['PHP', 'MySQL', 'MVC'], 
+        demoUrl: '#', 
+        githubUrl: 'https://github.com/MateusGomesc/Aura-Club',
     },
 ]
 
@@ -35,10 +35,10 @@ export function ProjectsSection(){
         <section id="projects" className="py-24 px-4 sm:px-12 relative">
             <div className="container mx-auto max-w-5xl px-0">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-                    Featured <span className="text-primary">Projects</span>
+                    Projetos em <span className="text-primary">Destaque</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 mx-w-2xl mx-auto">
-                    Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience.
+                    A seguir, alguns dos meus projetos mais recentes. Cada um foi cuidadosamente desenvolvido com foco em detalhes, performance e na melhor experiência para o usuário.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (
@@ -65,7 +65,7 @@ export function ProjectsSection(){
                     ))}
                 </div>
                 <div className="text-center mt-12">
-                    <a href="https://github.com/MateusGomesc" target="_blank" className="cosmic-button w-fit flex items-center mx-auto gap-2">Check My Github <ArrowRight size={16}/></a>
+                    <a href="https://github.com/MateusGomesc" target="_blank" className="cosmic-button w-fit flex items-center mx-auto gap-2">Veja mais no meu GitHub <ArrowRight size={16}/></a>
                 </div>
             </div>
         </section>

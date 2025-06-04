@@ -9,7 +9,7 @@ const navItems = [
         href: "#hero"
     },
     {
-        name: "About",
+        name: "Sobre",
         href: "#about"
     },
     {
@@ -17,11 +17,11 @@ const navItems = [
         href: "#skills"
     },
     {
-        name: "Projects",
+        name: "Projetos",
         href: "#projects"
     },
     {
-        name: "Contact",
+        name: "Contato",
         href: "#contact"
     },
 ]
