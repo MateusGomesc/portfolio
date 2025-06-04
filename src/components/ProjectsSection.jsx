@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Chronos Pomodoro",
         description: "Aplicação Web para gestão de tempo e foco com o método pomodoro.",
-        image: "src/assets/chronos-pomodoro.jpeg",
+        image: "@/assets/chronos-pomodoro.jpeg",
         tags: ['React', 'Typescript', 'Tailwind'],
         demoUrl: 'https://chronos-pomodoro-mu.vercel.app/', 
         githubUrl: 'https://github.com/MateusGomesc/Chronos-Pomodoro' 
