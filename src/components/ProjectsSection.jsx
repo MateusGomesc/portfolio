@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Chronos Pomodoro",
         description: "Aplicação Web para gestão de tempo e foco com o método pomodoro.",
-        image: "@/assets/chronos-pomodoro.jpeg",
+        image: "./src/assets/chronos-pomodoro.jpeg",
         tags: ['React', 'Typescript', 'Tailwind'],
         demoUrl: 'https://chronos-pomodoro-mu.vercel.app/', 
         githubUrl: 'https://github.com/MateusGomesc/Chronos-Pomodoro' 
@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "Costs",
         description: "Gerenciador de projetos com diversas funcionalidades incroporadas.",
-        image: "src/assets/costs.png", 
+        image: "./src/assets/costs.png", 
         tags: ['React'], 
         demoUrl: '#', 
         githubUrl: 'https://github.com/MateusGomesc/Costs' 
@@ -23,7 +23,7 @@ const projects = [
         id: 3,
         title: "Aura Club",
         description: "Ecommerce para boate fictícia.",
-        image: "src/assets/aura-club.png", 
+        image: "./src/assets/aura-club.png", 
         tags: ['PHP', 'MySQL', 'MVC'], 
         demoUrl: '#', 
         githubUrl: 'https://github.com/MateusGomesc/Aura-Club',
